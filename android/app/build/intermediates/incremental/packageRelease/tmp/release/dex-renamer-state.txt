@@ -1,0 +1,4 @@
+#Fri Apr 29 19:53:16 IST 2022
+base.0=C\:\\Users\\DON\\Desktop\\assignment\\myGeolocation\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

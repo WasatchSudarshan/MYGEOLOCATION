@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mygeolocation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESSCOARSELOCATION" />
+12-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESSFINELOCATION" />
+13-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:6:5-76
+13-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:6:22-74
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->[:react-native-location] C:\Users\DON\Desktop\assignment\myGeolocation\node_modules\react-native-location\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+14-->[:react-native-location] C:\Users\DON\Desktop\assignment\myGeolocation\node_modules\react-native-location\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+15
+16    <application
+16-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:8:5-27:19
+17        android:name="com.mygeolocation.MainApplication"
+17-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:9:7-38
+18        android:allowBackup="false"
+18-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:13:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\DON\.gradle\caches\transforms-3\a6d672e0cd4c8c7d5488e9843384cede\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:11:7-41
+21        android:label="@string/app_name"
+21-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:10:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:12:7-52
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:14:7-38
+24        <activity
+24-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:15:7-26:18
+25            android:name="com.mygeolocation.MainActivity"
+25-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:16:9-37
+26            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+26-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:18:9-118
+27            android:exported="true"
+27-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:21:9-32
+28            android:label="@string/app_name"
+28-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:17:9-41
+29            android:launchMode="singleTask"
+29-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:19:9-40
+30            android:windowSoftInputMode="adjustResize" >
+30-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:20:9-51
+31            <intent-filter>
+31-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:22:9-25:25
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:23:13-65
+32-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:23:21-62
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:24:13-73
+34-->C:\Users\DON\Desktop\assignment\myGeolocation\android\app\src\main\AndroidManifest.xml:24:23-70
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DON\.gradle\caches\transforms-3\2879c4018822f0e91c9b3d1e7a38d2e1\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+38            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+38-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DON\.gradle\caches\transforms-3\2879c4018822f0e91c9b3d1e7a38d2e1\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+39            android:exported="false"
+39-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DON\.gradle\caches\transforms-3\2879c4018822f0e91c9b3d1e7a38d2e1\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+40            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+40-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DON\.gradle\caches\transforms-3\2879c4018822f0e91c9b3d1e7a38d2e1\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+41
+42        <meta-data
+42-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\DON\.gradle\caches\transforms-3\045be59f3786eb6b733b64cb87bce042\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+43            android:name="com.google.android.gms.version"
+43-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\DON\.gradle\caches\transforms-3\045be59f3786eb6b733b64cb87bce042\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+44            android:value="@integer/google_play_services_version" />
+44-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\DON\.gradle\caches\transforms-3\045be59f3786eb6b733b64cb87bce042\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+45    </application>
+46
+47</manifest>
